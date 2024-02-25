@@ -1,0 +1,10 @@
+[Unit]
+Description=Saludo y fecha actual
+
+[Service]
+ExecStart=/home/roberto/Escritorio/Sopes1/SO1_ACTIVIDADES_20200054/Actividad_3/saludos.sh
+Restart=always
+User=roberto
+
+[Install]
+WantedBy=multi-user.target
